@@ -2,6 +2,10 @@
   "name": "tbt-scroll-api",
   "private": true,
   "type": "module",
+  "scripts": {
+    "build": "echo \"no build\"",
+    "start": "node -e \"console.log('api-only')\""
+  },
   "dependencies": {
     "@vercel/kv": "^2.0.0"
   }
